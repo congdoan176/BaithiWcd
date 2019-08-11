@@ -35,14 +35,14 @@
     </tr>
     </thead>
     <tbody>
-    <c:forEach var="phone" items="phones">
+    <c:forEach var="ph" items="${phones}">
     <tr>
-        <th ><c:out value="${phone.id}"/></th>
-        <th ><c:out value="${phone.name}"/></th>
-        <th ><c:out value="${phone.phone}"/></th>
-        <th ><c:out value="${phone.price}"/></th>
-        <th ><c:out value="${phone.brand}"/></th>
-        <th ><c:out value="${phone.description}"/></th>
+        <th ><c:out value="${ph.id}"></c:out></th>
+        <th ><c:out value="${ph.name}"></c:out></th>
+        <th ><c:out value="${ph.phone}"></c:out></th>
+        <th ><c:out value="${ph.price}"></c:out></th>
+        <th ><c:out value="${ph.brand}"></c:out></th>
+        <th ><c:out value="${ph.description}"></c:out></th>
     </tr>
 
     </c:forEach>

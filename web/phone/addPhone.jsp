@@ -31,11 +31,15 @@
 
     </div>
     <div class="form-group">
-        <label for="exampleInputPassword1">Price</label>
-        <input type="text" class="form-control" id="exampleInputPassword1" name="price">
+        <label >Price</label>
+        <input type="text" class="form-control" name="price">
     </div>
     <div class="form-group">
-        <label for="exampleInputPassword1">Brand</label>
+        <label >Price</label>
+        <input type="text" class="form-control" name="phone">
+    </div>
+    <div class="form-group">
+        <label >Brand</label>
         <select name="brand">
             <option value="apple">Apple</option>
             <option value="samsung">Samsung</option>
@@ -44,7 +48,7 @@
         </select>
     </div>
     <div class="form-group">
-        <label for="exampleInputPassword1">Description</label>
+        <label>Description</label>
         <textarea name="description">
 
         </textarea>

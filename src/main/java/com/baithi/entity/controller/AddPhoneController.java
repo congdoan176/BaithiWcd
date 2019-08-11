@@ -21,12 +21,14 @@ public class AddPhoneController extends HttpServlet {
         String name = req.getParameter("name");
         String brand = req.getParameter("brand");
         String price = req.getParameter("price");
+        String sdt = req.getParameter("phone");
         String description = req.getParameter("description");
 
         Phone phone = new Phone();
         phone.setName(name);
         phone.setBrand(brand);
         phone.setPrice(price);
+        phone.setPhone(sdt);
         phone.setDescription(description);
         ofy().save().entity(phone).now();
         resp.sendRedirect("/listPhone");
